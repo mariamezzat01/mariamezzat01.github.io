@@ -1,4 +1,4 @@
-# Const#
+# Const #
 
 Const keyword in C++ or C is used to make the value of elements constant. It can be used in multiple contexts such as:
 
