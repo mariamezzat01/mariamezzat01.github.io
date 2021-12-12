@@ -85,7 +85,7 @@ For example:
 return_type function_name() const;
 ```
 
-# & Operator#
+# & Operator #
 The & operator  can be used as a reference variable to extract the address of variable as the below example:
 ```&variable;```
 
