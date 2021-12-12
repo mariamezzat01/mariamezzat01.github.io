@@ -1,7 +1,8 @@
-##Const##
+# Const#
+
 Const keyword in C++ or C is used to make the value of elements constant. It can be used in multiple contexts such as:
 
-###1-	Variables **###
+### 1-	Variables ###
 If you make any variable as constant, using const keyword, you cannot change its value. Also, the constant variables must be initialized while they are declared.
 
 For example:
@@ -17,7 +18,7 @@ int main
 In the above code we have made i as constant, hence if we try to change its value, we will get compile time error. Though we can use it for substitution for other variables.
 
 
-###2-	Pointers with const keyword in C++ ###
+### 2-	Pointers with const keyword in C++ ###
 There are 2 ways that pointers can be associated with const keyword, either by pointing to a constant variable or the pointer itself be a constant
 
 a)	```const int* u; ```   OR   ``` char const* v;```
@@ -30,7 +31,7 @@ here the pointer w will always point to variable x, however, the value of x can 
 c) ```const int* const x;```
 Const pointer pointing to const variable.
 
-###3-	Const Function Arguments and Return types###
+### 3-	Const Function Arguments and Return types###
 We are able to make the return type or arguments of a function as const which will make them immutable.
 
 For example:
@@ -45,7 +46,7 @@ const int g()
     return 1;
 }
 ```
-###4-	Defining Class Data members as const###
+### 4-	Defining Class Data members as const###
 We may define data variables using const keyword but they are initialized in the constructor not during declaration.
 
 For example:
@@ -69,14 +70,14 @@ int main()
 Code explanation:
 Here i is a const data member, so in every object an independent copy will be present as it is initialized with each object using the constructor and once initialized, its value cannot be changed.
 
-###5-	Defining Class Object as const###
+### 5-	Defining Class Object as const###
 When an object is declared using const keyword its data members can never be changed
 
 For example:
 ```
 const class_name object;
 ```
-###6-	Defining class’s member function as const###
+### 6-	Defining class’s member function as const###
  const member functions never modifies data members in an object.
 
 For example:
@@ -84,7 +85,7 @@ For example:
 return_type function_name() const;
 ```
 
-##& Operator##
+# & Operator#
 The & operator  can be used as a reference variable to extract the address of variable as the below example:
 ```&variable;```
 
